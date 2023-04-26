@@ -7,7 +7,7 @@
   --hard-pink: #ee82ee;
   --pink: #ffc0cb;
   --smerald: #20b2aa;
-  --water-green: #20b2aa;
+  --water-green: #7fffd4;
   --green: #228b22;
   --pink: #ffc0cb;
   --salmon: #f08080;
@@ -63,6 +63,26 @@ div > .bgc-green {
   width: 100%;
 }
 
+section {
+  padding-top: 10px;
+}
+
+hr {
+  color: white;
+}
+
+/* Footer  */
+
+#links {
+  height: 80px;
+  align-self: flex-end;
+  align-items: center;
+}
+
+.buttons {
+  background-color: lightgrey;
+  padding: 5px 10px;
+}
 /* Utilities  */
 
 .d-flex {
@@ -76,6 +96,13 @@ div > .bgc-green {
 
 .jc-center {
   justify-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.height-100 {
+  height: 100px;
+  flex-basis: 100%;
 }
 
 .section-height {
@@ -100,6 +127,13 @@ div > .bgc-green {
   flex-basis: calc(100% / 3);
 }
 
+.column-xs {
+  flex-basis: calc(100% / 4);
+}
+.column-xl {
+  flex-basis: calc(100% / 4 * 3);
+}
+
 /* Background Colors */
 
 .bgc-blue {
@@ -120,6 +154,15 @@ div > .bgc-green {
 .bgc-gray {
   background-color: var(--gray);
 }
-.bgc-dark-grey {
+.bgc-dark-gray {
   background-color: var(--dark-gray);
+}
+.bgc-smerald {
+  background-color: var(--smerald);
+}
+.bgc-water-green {
+  background-color: var(--water-green);
+}
+.bgc-salmon {
+  background-color: var(--salmon);
 }
