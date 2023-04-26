@@ -44,19 +44,17 @@ body {
 
 .nav-links {
   flex-basis: 60%;
-  justify-content: center;
 }
 /* Header  */
 
 header {
   background-color: var(--blue);
   height: 400px;
-  justify-content: center;
 }
 
 .spotlight {
   background-color: var(--hard-pink);
-  flex-basis: 50%;
+  flex-basis: 80%;
   height: 80%;
   align-self: center;
 }
@@ -70,4 +68,8 @@ header {
 .container {
   width: 1080px;
   margin: 0 auto;
+}
+
+.jc-center {
+  justify-content: center;
 }
