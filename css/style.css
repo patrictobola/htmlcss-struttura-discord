@@ -12,6 +12,8 @@
   --pink: #ffc0cb;
   --salmon: #f08080;
   --pink: #ffc0cb;
+  --gray: #d3d3d3;
+  --dark-gray: #23272a;
 }
 * {
   padding: 0;
@@ -47,16 +49,18 @@ body {
 }
 /* Header  */
 
-header {
-  background-color: var(--blue);
-  height: 400px;
-}
-
 .spotlight {
   background-color: var(--hard-pink);
   flex-basis: 80%;
   height: 80%;
   align-self: center;
+}
+
+/* Main  */
+
+div > .bgc-green {
+  height: 800px;
+  width: 100%;
 }
 
 /* Utilities  */
@@ -72,4 +76,50 @@ header {
 
 .jc-center {
   justify-content: center;
+}
+
+.section-height {
+  height: 500px;
+}
+
+.cards-height {
+  height: 80%;
+}
+
+.m-tb {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Column sizes */
+
+.column-lg {
+  flex-basis: calc(100% / 3 * 2);
+}
+.column-sm {
+  flex-basis: calc(100% / 3);
+}
+
+/* Background Colors */
+
+.bgc-blue {
+  background-color: var(--blue);
+}
+
+.bgc-light-blue {
+  background-color: var(--light-blue);
+}
+
+.bgc-pink {
+  background-color: var(--pink);
+}
+
+.bgc-green {
+  background-color: var(--green);
+}
+.bgc-gray {
+  background-color: var(--gray);
+}
+.bgc-dark-grey {
+  background-color: var(--dark-gray);
 }
