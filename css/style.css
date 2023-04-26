@@ -29,24 +29,34 @@ body {
 /* Navigation bar  */
 
 .navbar {
-  background-color: var(--sky-blue);
   height: 80px;
-  flex-grow: 1;
   flex-basis: 100%;
   align-items: center;
 }
 
 .navitems {
-  background-color: var(--orange);
   height: 50px;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
+  /* padding: 0 10px; */
 }
 
 .nav-links {
   flex-basis: 60%;
+  align-items: center;
+  height: 100%;
 }
+.nav-side {
+  flex-basis: 20%;
+  align-items: center;
+  height: 100%;
+  padding: 0px 10px;
+}
+
+.nav-side.right {
+  justify-content: end;
+}
+
 /* Header  */
 
 .spotlight {
@@ -109,13 +119,23 @@ hr {
   height: 500px;
 }
 
-.cards-height {
+.cards-height80 {
   height: 80%;
+}
+.cards-height90 {
+  height: 90%;
 }
 
 .m-tb {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.border-d-3px {
+  border: 3px dashed black;
+}
+.border-dw-3px {
+  border: 3px dashed rgb(255, 255, 255);
 }
 
 /* Column sizes */
@@ -138,6 +158,9 @@ hr {
 
 .bgc-blue {
   background-color: var(--blue);
+}
+.bgc-sky-blue {
+  background-color: var(--sky-blue);
 }
 
 .bgc-light-blue {
@@ -165,4 +188,7 @@ hr {
 }
 .bgc-salmon {
   background-color: var(--salmon);
+}
+.bgc-orange {
+  background-color: var(--orange);
 }
