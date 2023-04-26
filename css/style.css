@@ -1,0 +1,31 @@
+/* Custom Properties */
+:root {
+  --sky-blue: #add8e6;
+  --blue: #00008b;
+  --light-blue: #1e90ff;
+  --orange: #daa520;
+  --hard-pink: #ee82ee;
+  --pink: #ffc0cb;
+  --smerald: #20b2aa;
+  --water-green: #20b2aa;
+  --green: #228b22;
+  --pink: #ffc0cb;
+  --salmon: #f08080;
+  --pink: #ffc0cb;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Utilities  */
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
